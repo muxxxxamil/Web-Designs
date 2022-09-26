@@ -1,0 +1,106 @@
+img{vertical-align: middle; border: 0; height: 180px;}
+h4{text-align: center;}
+.login-from{margin-top: 210px; width: 96%; }
+.rest-logo-container{height: 107px;
+    width: 107px;
+    top: -13px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;}
+.rest-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.navbar{background-color: #fc0303!important;}
+.nav-link{    color: white!important;
+    font-size: 20px!important;
+    font-style: italic!important;
+    font-weight: bold!important;}
+
+.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.meal-menu{margin-bottom: 5px;}
+.meal-menu:hover{background-color: #e8fdff;}
+.addbtn{position: absolute; bottom: 0; right: 16px;}
+.btn-container{position: relative;}
+.pack{position: relative;}
+.login-btn{width: 100%;}
+.payment{padding: 60px; top: 170px; width: 98%; margin-left: 5px;}
+.services{color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: sans-serif;}
+.services > a{color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 15px;
+    padding-right: 10px;}
+.navBar-last{color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 12px;
+    padding-right: 10px;}
+#shop-cart{top: 199px;width: 96%;}
+#cart-title{padding-left: 50px; padding-top: 35px;}
+#shop-detials{padding: 35px; font-family: inherit; font-size: 22px;}
+#shop-btn{padding-left: 43px; padding-bottom: 27px;}
+.logo{background-image: url('./images/logo.jpg'); height: 100%; width: 100%; margin-top: -24px; margin-left: 7px;}
+.img1{background: url('images/Döner.jpg') no-repeat center center; width: 100%; height: 150px;}
+.img2{background: url('images/pizza.jpeg') no-repeat center center; width: 100%; height: 150px;}
+.img3{background: url('images/Aufläufle.jpg') no-repeat center center; width: 100%; height: 150px;}
+.img4{background: url('images/indische.jpg') no-repeat center center; width: 100%; height: 150px;}
+.img5{background: url('images/Salate.jpg') no-repeat center center; width: 100%; height: 150px;}
+
+.Description{font-size: 14px; margin-right: 41px;}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+
+/* desktop view */
+@media (min-width: 458px){
+    .rest-logo-inner{display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid #d7d7d7;
+        background: #fff;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        position: relative;}
+    .services{padding-left: 150px; padding-top: 11px;}
+    .section{padding: 17px;margin-top: 155px; text-align: center;}
+    .detail-space{left: 380px;}
+}
+/* mobile view */
+@media (min-width: 320px) and (max-width: 458px){
+    .rest-logo-inner{display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid #d7d7d7;
+        background: #fff;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        position: relative;}
+    .services{padding-top: 85px;}
+    .section{padding: 7px;
+        margin-top: 155px;
+        text-align: center;}     
+
+}
